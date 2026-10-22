@@ -132,7 +132,7 @@ From Kali Linux, I opened **\`webserver.tmzsusheel/DVWA/\`** and confirmed that 
 
 ### 07 · Configure SafeLine's HTTPS reverse proxy
 
-Under **SafeLine WAF → Applications → Detail**, the protected application is set to **Defense Mode**, port **443/HTTPS**, **Reverse Proxy** access method, with upstream **\`http://192.168.177.138:8080\`**.
+Under **SafeLine WAF → Applications → Detail**, the protected application is set to **Defense Mode**, port **443/HTTPS**, **Reverse Proxy** access method, with upstream **\`http://192.168.177.138:9443\`**.
 
 ![SafeLine reverse proxy and protected application settings](assets/evidence/11-proxy-application.png)
 
