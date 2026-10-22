@@ -58,7 +58,7 @@ The original screenshots document Apache configuration, SafeLine application set
 \`\`\`mermaid
 flowchart LR
   A["Kali Linux test client<br/>192.168.177.129"] -->|"HTTPS / 443"| W["SafeLine WAF<br/>192.168.177.138"]
-  W -->|"Reverse proxy: HTTP / 8080"| D["Apache + DVWA<br/>192.168.177.138:8080"]
+  W -->|"Reverse proxy: HTTP / 8080"| D["Apache + DVWA<br/>192.168.177.138:9443"]
   W --> L["Security telemetry<br/>Attack logs · Events · Statistics"]
   classDef host fill:#12324a,color:#ffffff,stroke:#30c6c3,stroke-width:2px;
   class A,W,D,L host;
