@@ -227,6 +227,11 @@ The lab strengthened my ability to **validate web attack alerts, distinguish blo
 
 DVWA is intentionally vulnerable and was used only for authorized security testing. The included paths and RFC 1918 addresses refer to a private lab. The enterprise architecture diagram depicts a simulated financial organization, not an actual employer infrastructure. Configuration screenshots do not contain a copy of the underlying credential or private-key material.
 
+
+### 🙏 Special thanks
+
+Special thanks to **The Social Dork** for the helpful YouTube explanations and step-by-step guidance on SafeLine WAF that supported my learning and implementation of this security lab. [Guidance reference](https://share.google/oPm68wbxM8S4fXGLJ).
+
 ---
 
 <div align="center">
