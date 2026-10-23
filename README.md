@@ -53,16 +53,6 @@ The original screenshots document Apache configuration, SafeLine application set
 
 *Figure 1. Original simulated financial-enterprise topology: test zone, VLAN-based internal segments, NGFW/VPN gateway, and a proposed DMZ (VLAN 40) hosting a WAF in front of a web application. This is the user's network design artifact, not independent proof that every illustrated segment was deployed.*
 
-**Observed WAF/DVWA request flow from the application settings**
-
-\`\`\`mermaid
-flowchart LR
-  A["Kali Linux test client<br/>192.168.177.129"] -->|"HTTPS / 443"| W["SafeLine WAF<br/>192.168.177.138"]
-  W -->|"Reverse proxy: HTTP / 8080"| D["Apache + DVWA<br/>192.168.177.138:9443"]
-  W --> L["Security telemetry<br/>Attack logs · Events · Statistics"]
-  classDef host fill:#12324a,color:#ffffff,stroke:#30c6c3,stroke-width:2px;
-  class A,W,D,L host;
-\`\`\`
 
 The screenshot of SafeLine's protected application identifies **HTTPS/443**, **Reverse Proxy**, and upstream **http://192.168.177.138:8080**. The observed Kali source address is **192.168.177.129**. Both the proxy and backend use the same lab IP in the captured configuration; this must not be confused with the separately designed VLAN/DMZ topology.
 
