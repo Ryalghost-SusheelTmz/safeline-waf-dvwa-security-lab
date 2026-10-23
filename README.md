@@ -47,7 +47,7 @@ The original screenshots document Apache configuration, SafeLine application set
 
 ## 🗺️ Network architecture
 
-**Enterprise security architecture design — Harbour Financial Advisory**
+**Enterprise security architecture design — Frictional Financial Advisory**
 
 ![Original enterprise network topology designed for the lab](assets/evidence/01-enterprise-architecture.jpg)
 
